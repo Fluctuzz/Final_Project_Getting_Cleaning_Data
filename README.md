@@ -1,9 +1,9 @@
 # Final Project of Getting Cleaning Data course on coursera 
 
-This repo contains the following files:
-  - `REDME.md`: Gives Overview over data analysis
-  - `Codebook`: List/Explains each column of the the tidy dataset 
-  - `run_analysis.R`: Creates `tidydataset.txt` from original dataset 
+This repository contains the following files:
+  - `REDME.md`: Gives Overview over the data analysis
+  - `Codebook.md`: Lists/Explains each column of the the tidy dataset 
+  - `run_analysis.R`: Creates `tidydataset.txt` from the original dataset 
   - `tidydataset.txt`: Contains the tidy dataset (values are space seperated)
   
 ### Experimental study design
@@ -16,21 +16,20 @@ The process of data collection as described in the [orginal dataset](http://arch
 1. Reads in files from the dataset 
 2. Clips the train/test/subject/activity datasets to one dataset together
 3. Extracts only the measurements on the mean and standard deviation for each measurement
-4. Replaces activity id with their respective name
+4. Replaces the activity ids with their respective names
 5. Removes any special characters from the column names and makes them more descriptive.
 6. Groups the dataset by subject and activity
-7. Aggregate other column by the mean
+7. Aggregates the other columns by the mean
 8. Generates the tidy data text file
 
 The tidy data text file follows the principles:
  - one observation per row
  - one measurement per column
- - has descriptive column names
+ - descriptive column names
 
 
 ### Running the `run_analysis.R` script
-The working directory has to be in the `UCI HAR Dataset` folder and assuming `run_analysis.R` is also in the same folder.
-Tidy dataset generated with R version 3.5.3 (2019-03-11).
+The working directory has to be in the `UCI HAR Dataset` folder and assuming the `run_analysis.R` script is also in the same folder. Tidy dataset was generated with R version 3.5.3 (2019-03-11).
 `source("run_analysis.R")`
 
 ### Loading the tidy dataset in R 
