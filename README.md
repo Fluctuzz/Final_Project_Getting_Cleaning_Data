@@ -1,7 +1,7 @@
-# Final Project of Getting Cleaning Data course on coursera 
+# Final Project of Getting and Cleaning Data course on coursera 
 
 This repository contains the following files:
-  - `REDME.md`: Gives Overview over the data analysis
+  - `REDME.md`: Gives an Overview over the data analysis
   - `Codebook.md`: Lists/Explains each column of the the tidy dataset 
   - `run_analysis.R`: Creates `tidydataset.txt` from the original dataset 
   - `tidydataset.txt`: Contains the tidy dataset (values are space seperated)
@@ -13,7 +13,7 @@ The process of data collection as described in the [orginal dataset](http://arch
 >The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
   
 ### Steps of the data analysis/run_analysis.R
-1. Reads in files from the dataset 
+1. Reads in the files from the UCI dataset 
 2. Clips the train/test/subject/activity datasets to one dataset together
 3. Extracts only the measurements on the mean and standard deviation for each measurement
 4. Replaces the activity ids with their respective names
