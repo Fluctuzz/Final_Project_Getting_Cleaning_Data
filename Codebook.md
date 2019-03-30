@@ -1,4 +1,4 @@
-# Human Activity Recognition Using Smartphones Dataset Version 1.0 Codebook
+# Codebook for the tidy dataset 
 
  - `subject.id`	*categorical* \
      Unique identifier for each of the 30 subjects.\
@@ -6,12 +6,12 @@
 
 - `activity`	*categorical*\
 	Activity perfomed by subjects:\
-		- `LAYING` : subject is laying   \
-		- `SITTING` : subject is sitting  \
-		- `STANDING` : subject is standing \
-		- `WALKING` : subject is walking   \
-		- `WALKING_DOWNSTAIRS` : subject is walking downstairs \
-		- `WALKING_UPSTAIRS` : subject is walking upstairs
+		- `LAYING` : Subject is laying   \
+		- `SITTING` : Subject is sitting  \
+		- `STANDING` : Subject is standing \
+		- `WALKING` : Subject is walking   \
+		- `WALKING_DOWNSTAIRS` : Subject is walking downstairs \
+		- `WALKING_UPSTAIRS` : Subject is walking upstairs
 
 ## Time domain signals
 The following measurement where sampled at rate of 50 Hz during the activity.
