@@ -29,7 +29,7 @@ The tidy data text file follows the principles:
 
 
 ### Running the `run_analysis.R` script
-The working directory has to be in the `UCI HAR Dataset` folder and assuming the `run_analysis.R` script is also in the same folder. Tidy dataset was generated with R version 3.5.3 (2019-03-11).
+The `UCI HAR Dataset` folder and `run_analysis.R` script have to be in the working directory. Tidy dataset was generated with R version 3.5.3 (2019-03-11).
 `source("run_analysis.R")`
 
 ### Loading the tidy dataset in R 
